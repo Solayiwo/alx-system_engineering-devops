@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# A script that fixing error on the docker container when running Apache in
+# order to return a page containing Hello Holberton when querying the root of it
+
+sudo apt-get update -y
+sudo apt-get install -y apache2
+echo "Hello Holberton" > /var/www/html/index.html
+service apache2 start
