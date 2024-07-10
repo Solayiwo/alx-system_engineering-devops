@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Fix Nginx installation fix short and sweet
+cat /etc/nginx/sites-available/default > /etc/nginx/sites-enabled/default
+sudo service nginx restart
+rm /run/nginx.pid
