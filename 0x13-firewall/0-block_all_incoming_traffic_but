@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# A bash script that stall the ufw firewall and setup a few rules on web-01
+
+sudo apt -y install ufw
+sudo ufw default allow outgoing
+sudo ufw default deny incoming
+sudo ufw allow 22
+sudo ufw allow 443
+sudo ufw allow 80
+echo "y" | sudo ufw enable
