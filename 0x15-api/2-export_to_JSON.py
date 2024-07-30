@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""A python script that export data (employee TODO list) to CSV format"""
+"""A python script that export data (employee TODO list) to JSON format"""
 
 import json
 import requests
