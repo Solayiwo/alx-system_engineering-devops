@@ -1,6 +1,6 @@
 # Postmortem Task - Image Compression Service Outage
 
-![Technical Issue Resolution](./An image depicting a web service outage postmortem.webp)
+![Technical Issue Resolution](./postmortem.webp)
 
 ## Issue Summary
 - Duration: The outage lasted for 2 hours, from 10:00 AM to 12:00 PM  on August 15, 2024.
